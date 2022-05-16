@@ -1,0 +1,1048 @@
+Link material: https://drive.google.com/drive/folders/1oozzV2Nx6k2fUIRxG86aAWW1lsEnKMJk
+Git hub repo> https://github.com/Gdaimon/udea.git 
+
+07132021 (Start week 1)
+
+	- Java desde 0
+	- Carlos Andres Charris Sandoval
+	- Java, lenguaje robusto
+	- ionic, framework para aplicaciones hibridas usando angular
+
+	- Java != JavaScript
+	- Java = oracle
+	- JavaScript = ECMASCRIPT
+	- NodeJS, frontend and backend
+	- Typescript, ayuda al programador
+	  para no generar errores
+
+	- No hay lenguaje mejor que otro
+	  cada lenguaje hace una cosa
+	  y la sabe hacer bien
+
+	- Roadmap Javascript, conocimientos
+	  base
+
+	- Version Java 8
+	- OpenJDK, Java libre
+	- Java oracle, Java de pago
+
+	- las 6 plataformas JAVA
+
+	  microedition
+	  fx
+	  ee (enterprise edition, sistemas distribuidos escalables)
+	  web profile (parte de java ee, servlet)
+	  micro profile 
+
+	- Concentracion en Java SE
+	  (Standard Edition)
+
+	- Niveles de capas
+	
+		- Capa cliente
+		- Capa media (el ciclo se centra aqui)
+		- Capa empresarial
+
+	- Backend
+	
+		asociado a logica de negocio
+		persistencia, base de datos
+		microservicios, seguridad, etc
+	 	apis, interfaces para consumo de info
+
+	- Frontend
+
+		parte visual
+		muchas herramientas en frontend
+		mas herramientas de front
+
+	- DevOPS
+
+		servidores, despliegue de codigo, etc
+		
+
+	- JAVA Virtual Machine
+
+		programa funcional en
+		sistemas operativos diferentes
+		linux y windows
+
+		fue creada la virtual machine
+		para que el programa sea portable
+		en cualquier plataforma
+
+	- JAVA esta en muchas partes
+	
+		cajeros, routers, sistemas de vuelo
+		robotica, pistolas de lectura de
+		de codigo de barras
+
+		ventajas de java, seguridad
+
+	- JAVA Bytecode
+
+		escritura de archivo .java
+		(codigo de alto nivel)
+
+		archivo compilador, compila a
+		archivo .class y lo convierte a
+		bytecode (binario)
+
+		maquina virtual para cada 
+		SO, bytecode realiza instrucciones
+		
+
+	- JDK vs JRE
+
+		- Java Development Kit
+		  
+		  herramientas de interpretacion
+		
+
+	- Entornos Inegrados de Desarrollo (IDE)
+
+		- IntelliJ (version de pago y gratuita)
+		- NetBeans (con el que trabajaremos)
+		- SpringTools
+		- VisualStudioCode (consumo de memoria)
+		- Eclipse (gratuito, limpio, intalacion de plugins)
+
+	- java -version
+	- javac -version
+
+	HOMEWORK: configurar ruta de java c, revisar video
+
+07152021
+
+	- propuesta docente, ejercicios de practica x sesion
+	* Tipos de datos
+
+	- Ventajas IDE, va guiando el proceso de programacion
+	- package = carpeta
+		contendra archivos, metodos, funciones, etc
+
+	- Variable, forma de almacenamiento
+	- las variables se guardan en la memoria del ordenador
+	- el manejo de la memoria es importante
+	- java gestiona el espacio de memoria
+
+	- tipos de datos primitivos
+		- booleanos (True, False)
+		- alfanumericos (caracteres, cadena de caracteres)
+		- numericos (entero, decimal (. para decimales))
+
+	- tipos de datos estructurados
+
+	* Datos primitivos
+
+	- caracteres
+		char - caracteres unicode
+		byte - entero de 8 bits
+		short - entero de 16 bits
+		int - entero de 32 bits
+	- numericos
+		long - entero de 64 bits
+		float - real de 32 bits
+		double - real de
+
+	- como regla general, hay que declarar e inicializar 
+	  variables antes de usarla
+	- una de las grandes ventajas que tiene java es
+	  que es altamente tipado
+
+	- java se lee de arriba hacia abajo
+	- java es case - sensitive, sensible a mayusculas y minusculas
+
+	- "Clean code - book"
+
+	- 36.5
+
+	- Scope of a variable
+		- periodo de tiempo de una variable
+
+	- precedencia de operadores
+
+		1. calculos parentesis ()
+		2. negatio de un numero -
+		3. porcentaje %
+		4. exponenciacion ^
+		5. multiplicacion y division * , /
+		6. suma y resta (+ , -)
+	
+	- tipos de datos tienen valores por defecto
+
+07202021 (Start week 2)
+
+	- Q. How to ignore case string. Example switch
+
+07212021
+
+	- POO 
+	- modelado de objetos del mundo real
+	- el objeto solo cuenta con algunos elementos del mundo real
+	  no todos
+	- se lleva a cabo un proceso de abstraccion
+	  simplificacion de un objeto del mundo real por medio de un modelo que sea
+	  util para el problema particular
+	- object oriented programing is worked like an object collection that collaborate
+	  work together 
+	- objects are instances of a class
+	- common concepts in poo
+
+		class: abstract description of a objects' set, that have similar properties
+		it may be thinked like a mold to create individual objects
+
+		object: an object is an instance of a class, it has a performance (methods)
+		and a estate (values of atributes)
+
+		material result of a class, the object produced by the mold
+
+		atribute: a property of an object's class, they had a name and a range of
+	 	values they can get
+
+		method: performance given generally by a function, the main used to change
+		the state of an object
+
+		relationship: betwen classes and objects, for example "inheritance"	
+
+6:13 PM 7/22/2021
+
+	- objects
+	- paradigm - POO
+	  the ways in a program is developed
+	- almost 80% of programs are developed with a POO structure
+	- objects interarct trough messages
+	- Encapsulation
+		objects only knows his own framework
+
+	- an object is instanced with the word "new"
+	- each instation takes a memory space
+	
+	- HOMEWORK: Review todays' record
+
+4:58 PM 7/23/2021
+
+	* Uinified Modeling Languaje (UML)
+	- object context design
+	  modeling or representation of framework
+
+	  breakdown of a system in objects 
+
+	- to modelate informatic systems is used UML
+	- UML diagrams can be static or dinamic 
+
+	- static diagrams: are responsible of framework object
+	  representation
+
+	- dynamic diagrams: are responsible of represent the
+	  interaction betwen classes, objects, components and
+	  roles
+
+	- classes diagram is one of the most important diagrams
+
+	- UML Standard defines how most of concepts of POO are
+	  graphically represented
+
+	* Most common elements
+
+	- Class
+
+		1. Class Title
+		2. Attributes
+		3. Methods
+
+	- Example:
+
+		1. Airport
+		2. - city: String
+		3. + setCity(String): void
+		   + getCity(): String
+
+	- attribute and method symbols:
+
+		- public acces (+)
+		- protected acces (#)
+		- private acces (-)
+
+	- relationship betwen diagrams:
+
+		
+		- asociation: weak association betwen classes
+		  notation: Arrow (<--- / --->)
+		  example: Airport <--- plane
+
+		- aggregation: strong association betwen classes
+		  existence of final class doesn't depends on 
+		  existence of initial class
+		  notation: diamond and arrow (<---<> / <>--->)
+		  example: car <>---> tire
+
+		- composition: stronger association betwen classes
+		  existence of final class depends on 
+		  existence of initial class
+		  notation: diamond and arrow (<---<-> / <->--->)
+		  example: car <->---> license plate
+
+		- inheritance: association betwen parent and child
+		  classes
+		  notation: diferent arrow (<<--- / --->>)
+		  example: transport <<--- plane, car
+
+2:53 PM 7/24/2021
+
+	- Java is a language multiparadigm:
+	  the same problem can be solved with multiple approaches
+
+	- variables can be used in trhee ways:
+
+		1. as local variables, inside a method
+		2. as parameters, to give data to a method when we call it
+		3. as attribute, shared proerties in a class
+
+	- we can declarate an attribute using an acces modificator
+
+		- public
+		- protected
+		- privated
+		- none
+
+	* acces modificators: it stablish the visibility of the attribute, method 
+	  or constructor
+
+	access' levels
+
+	Visibility	Same 		Same 		subclass in	subclass		any other class
+			class		package		same package	ouside package		outside package
+
+	public		yes		yes		yes		yes			yes
+	protected	yes		yes		yes		yes			no
+	[none]		yes		yes		yes		no			no
+	private		yes		no		no		no			no
+
+	* Methods: are composed by:
+
+		- acces modificator
+		- type of data that returns
+		- name of method in camel-case notation
+		- parentheses with zero, one or several parameters separated by coma, include all kind of data
+		- body method, logic betwen keys
+
+	* constructors
+
+	- give default values to a attributes class
+	- it's defined like methods
+
+		- acces modificator (public)
+		- same name of the class
+		- parentheses with zero, one or several parameters separated by coma, include all kind of data
+		- body method, logic betwen keys
+
+	- if the class doesn't have any constructor, java compiler will asign a default value,
+	  but it's not recommendable
+
+	- constructors are situated betwen attributes and methods
+
+	* method overloading
+
+	- we can define two methods with the same name even these methods would diferentiate
+	  on the number or type of parameters
+
+	* packages
+
+	- folder in that are group classes, interfaces, and others guided for the packages name
+	- developers can find easily relationated classes inside an application
+	- two classes might have the same name even they stay in diferent packages
+	- allow to restrict classes, methods and attributes acces from other classes using
+	  acces modificators
+
+	* object creation
+
+	- has trhee moments:
+
+		1. declaration
+		2. instantiation
+		3. initialization 
+
+3:57 PM 7/26/2021
+
+	- void methods hasn't return
+	- encapsulation: the way in the program allow any acces
+	- an empty constructor is generally needed when we work with data base
+
+	- record 5 was seing until minute "01:56:57"
+
+	- WORK: form, training, 3 months paid, final exam
+	  contrato, developing thwo years, remote work
+	  agreement, salary (2 - 3 millions cop)
+
+	- online exercises, codewars
+
+	* Exercises solution
+
+6:07 PM 7/27/2021 (Start week 3)
+
+	- Multidimensional array
+	- we can move inside a multidimensional array
+	  through columns or rows
+	- a dooble loop is used to enter iside the
+	  multidimensional array
+	- start point always is zero
+	- Streams: information flow (database in realtime)
+	  whatsapp, telegram, etc
+	  Sockets is the technology that is listening
+	  always
+	- PWA: progressive web application
+	- Ionic: hibrid applications 
+	
+	* String class
+	- string objects are unchangeable
+	  all operations we do with they
+	  bring as result a new one
+	- an string is a character chain
+	- an string is a character array
+	- string builder doesn't creates new objects
+	  just modificate the object created
+	- string builder always must be converted to
+	  string
+	- when we iterate in a string is recommended 
+	  to use a stringBuilder
+	- HOMEWORK: read about regular expressions
+
+10:57 AM 7/29/2021
+
+	- There are four main concepts asociated to POO
+
+		- Abstraction: attributes and methods asignation
+		  process of a real object
+		
+		- Encapsulation: the way how conections between objects
+		  are arranged to avoid security issues
+ 
+		- Polymorphism
+
+		- Inherit: inheritation of methos and attributes 
+		  from a parent class to a child class
+
+	- Design of UML diagrams: 
+		
+		- draw.io https://app.diagrams.net/
+		- it's advisable to do first a simple diagram(classes
+		  and relationships) then a extended diagram(attributes
+		  and methods)
+	* OMG (Standads Development Organization)
+
+		- Link: omg.org/spec/UML
+	* Continuation of the record 5 that was seing until 
+	  minute "01:56:57"
+
+	- Wrapper: converts a primitive to a object, giving more
+	  options
+	- Java has more than 4000 classes
+
+	- Arrays: is a vector, a container, it can contains
+	  all sort of data and classes
+	
+	  size != position
+
+	  size = number of positions of the array
+	  position = an individual space in the array
+
+	  recursion uses many resources
+
+	HOMEWORK: Solve Poo and array exercies
+
+6:08 PM 7/29/2021
+	
+	- stream: flow data
+	  (RxJS) Reactive Extensions Library for Java Script
+	  functional programming
+	- SPA (Single Page Application)
+
+	* Static
+
+	- we can hand with class elements
+	  or object elements
+	- class attributes != objects attributes
+	- System is a method of class static
+	- We can use debbuger to review the code
+	  step by step
+
+	*Inherit
+
+	- super class
+	- help to reduce the quantity of code we write
+	- a superclass can decide wich attributes
+	  or methods to pass
+
+	- if the class musn't be edited, it can be
+	  stated with "final" 
+
+	- toString converts an object to a chain characters
+	
+	*Polymorphism
+
+12:02 PM 7/30/2021
+
+	- Q. How can i print the information in the same column?
+
+8:15 AM 7/31/2021
+
+	- Summary
+	* toString
+	* static
+	* Inherit
+	- most general class in java is the object
+	  class
+	- all changes we do in the parent class
+	  affects child classes
+	- refactoring: improve the code once it works
+	
+	* Polymorphism
+
+	HOMEWORK: weekend excercises
+
+6:37 PM 8/3/2021 (fourth week)
+
+	* Polymorphism
+
+	- need of reduce code
+	
+	- methods and attributes can be accesed by using "super"
+	- por medio del arbol gerarquico podemos acceder a toda
+	  la linea de herencia de la clase que estoy visitando
+
+	- a higher class can acces to lower classes if they
+	  share attributes or methods
+	- polymorphism is a good practice to make our software
+	  scalable
+	- polymorphism is a principle derivated of inherit
+
+	* Abstract classes
+
+	- an abstract class has at least an abstract method
+	- attributes and methods must be inheritated to
+	  sub classes
+	- we cant create objects from abstrat classes
+	- it only defines vehaviours 
+	- abstract class isn't instantiated
+	- is a mandatory mold to classes
+	- it helps to create robust software
+
+6:24 PM 8/5/2021
+
+	*Interfaces
+	
+	- like an abstract class but it can be created like 
+	  a type of data
+	- spring framework for java (use interfaces)
+	- hibryd betwen inherit and abstract classes
+	- interfaces comunicate classes doesn't matter
+	  if the class doesnt extend the same superclass
+	- a interface is an abstract class that works 100%
+	- implementation is (how)
+	- interface is (what)
+	- in abstract class method has the what and how
+	- polymorphism is able in abstract classes and 
+	  interfaces
+
+6:08 PM 8/10/2021 (Start week 5)
+
+	- stackoverflow 2021 poll
+	- angular, react and view most popular frameworks
+	- interfaces awolled multiple inherits
+	- Q. when do shall i use abstract?
+
+	- interface allow "implement" diferent interfaces in one class
+	- interfaces are just rules to implement in some class
+	- interfaces are writen in apparted classes
+
+	- inherit from interfaces
+
+	* UML
+
+	- a tool to backend
+	- software: star uml
+	- classes are labeled with a rectangle shape
+	- interfaces are labeled with a circle shape
+	- user cases or person story
+
+9:01 PM 8/11/2021
+
+	- inherit is one of the most eficient mechanism to code recicling
+	- when there are many inherit clases it's denominated hierarchy classes
+	- all classes in java inherit of the "object" class
+	- child class only inherit from parent class methods and attributes 
+	  public and protected, in case of private attributes must be acceced
+	  trough getters and setters
+	- child class uses attributes and methods of parent class main keyword 
+	  this.
+	- child class can redefine the methods of parent class
+	- There are two kinds of inherit (simple and multiple), java only
+	  allows simple, it means a child class just will can inherit of one
+	  parent class
+	- parent class methods could be overwritten
+		
+
+6:04 PM 8/12/2021
+
+	* MLU
+
+	- estructural elements
+
+	- Agrupation: Sumarize efforts
+
+	- user case: user experience simplificated
+	
+	- component: nodes 
+	- each node represent a physical object (has cost)
+
+	*behavior elements
+
+	- relationships
+	
+	- dependence - - ->: is like inherit
+	- generalization --->: 
+	- sociation ---: conections betwen objects
+		abreviation: objects independents
+		composition: one object dependent of other
+
+	- realization:  - - ->>: interface, mandatory or not
+
+	*API Collection
+
+	- solutions to specific problems
+	- arrays has many problems
+
+		- we need to know how much information will have our array
+		- we cannot change size of array
+		- 
+
+	- Most used in java: string, boolean and arraylist
+	- most of methods of array create new objects each time we use it
+	- arraylist by default has 10 positions, and ten more when we need more
+	  space
+	- java 1.5 implements <diamond operator> List<String> cars = new ArrayList<String>();
+	- java 1.7...
+	
+8:04 AM 8/14/2021
+
+	- with .trimToSize() arraylist can be trimed till spaces are used
+	- Arraylist data can be transfered to an array with .toArray(object)
+	- method iterator() is in ArrayList Class, it allows removing 
+	  arraylist element when is operated
+	- to string is a method that return an string, it's useful when 
+	  a memory position is returned and we need a string
+	- .get(/*index element*/) helps to obtain an element in arraylist
+	- .set(0, /*new object()*/) helps to set the index element in array
+	- SQL is the core of Data Base
+	
+	*Giving arguments by value or reference
+
+6:54 PM 8/17/2021
+
+	* functional programming paradigm
+
+	- Lamda expression
+	- parameters -> implementations
+	- if the interface method has no parameters, parenthesis
+	  will become void
+
+	- any parametters would be included inside parenthesis, must
+	  be respected the type of data
+	
+	- HOMEWORK: Review first 30 min of class
+
+	*Streams data flow
+
+
+5:29 PM 8/19/2021
+
+===TESTEADOR AUTOMÁTICO - RETO 2 - VARIANTE 1 - UdeA===
+
+[33m¡INCORRECTA LA CLASE JUGADOR![0m
+[35mCONDICIONES INICIALES (Constructor)[0m
+Jugador j = [34mnew[0m Jugador(Exploradora, f, -1.0, -1.0, 130.0);
+
+OPERACIONES DE ENTRADA:
+[[golpear(e), j],
+[golpear(e), j], 
+[usarBotiquin(), j], 
+[recogerBotiquin(), j], 
+[recogerBotiquin(), j], 
+[usarBotiquin(), j], 
+[moverArriba(2), j], 
+[golpear(j), e]]
+[32m
+SALIDA ESPERADA:
+- Nombre: Exploradora
+- Sexo: f
+- Posición en X: -1.0
+- Posición en Y: 1.0
+- Damage: 130.0
+- Número de botiquines: 1
+- Vida: 30.0
+[31m
+TÚ SALIDA:
+- Nombre: Exploradora
+- Sexo: f
+- Posición en X: -1.0
+- Posición en Y: 1.0
+- Damage: 130.0
+- Número de botiquines: 2
+- Vida: 100.0
+[0m
+[33m¡HAZ SCROLL HACIA ARRIBA EN LA CONSOLA PARA CONOCER TODA LA INFORMACIÓN![0m
+
+	*Graphic interfaces
+
+	- command line interface, interaction only by console
+	- AWT asigned graphic interfaces to os
+	- JAVA 1.0
+	- JAVA 1.2
+	- SWING, only use frame of os
+	- Electron, some apps how whatsapp use it
+	- ionicframework
+
+	*Frame
+
+	- shape, window
+	- frame features
+	  by default 
+	  isn't visible
+	  size is 0
+	  
+	- to create a frame we extends from JFrame
+	- then we define a size
+	     
+3:14 PM 8/20/2021
+
+	*Abstract classes
+
+	- define abstract objects, general objects
+	- it has one or more abstract methods
+	- abstract methods doesn't have body
+	- child classes mange and implement abstract methods
+	  bodies
+	- abstract classes can't be instantiate
+	- child classes can be instantiated
+	- abstract classes cannot have a method body
+	  because we don't know how to it function, but child class
+	  knows how
+	- A child class must implement all methods and if it doen't do
+	  it must be abstract as well
+
+	*Interfaces
+
+	- 
+
+8:17 AM 8/21/2021
+
+	- Bootstrap, grid system 960
+	- screen divided on 12 columns
+	- photoshop raster image
+	- illustrator vector
+	- figma, implements all solutions IG
+	- Java fx - css, improve visual components
+	- containers, group components
+	- container insid frame or another container
+	- actionPerformance is listen for an event
+	- lambda functions let an easier approach
+
+	* Layouts
+
+	- Flowlayout - any part
+	- Borderlayout - screen divided in parts (center, north, west, south, etc)
+
+	* Panel
+
+	- JPanel is the most used tool in java swing
+
+6:19 PM 8/24/2021
+
+	*Dependences management
+
+	- Maven repository
+	- Chocolatey
+	- maven
+
+		framework to manage projects
+		library repository
+		plugin based structure
+
+	- gradle
+	- spring framework(works with java)
+	- tend to use UTF-8 to include acents but try to write
+	  code witout acents 
+
+7:24 PM 8/25/2021
+
+	* Interfaces
+
+	- being for the necesity of asembling 
+	  diferent components but without dependence
+	
+	- components interaction is given mean 
+	  contract or agreements (interfaces) 
+	  that especify what we can do with they
+
+	- An interface isn't instantiated nor 
+	  can be inherit
+
+	- An interface is "implemented"
+
+	- A class slhould "implements" the interface
+	  that is giving body to the interface
+	  methods
+
+	* ArrayList
+
+	- Array group a fix number of elements
+	  of the same type, that is, size of the 
+	  array cannot be modified
+
+	- For this reason python creates colections,
+	  an object that groups several same type
+	  elements
+
+	- ArrayList is one of the most used class
+	  in the javas' colections
+
+	- An ArrayList is an object that is a class
+	  object of the same name
+
+	- Function as an array but with a dynamic shape
+	  
+	- Elements in a ArrayList are of the same type
+
+	- It doesn't admits primitive data type, instead
+	  uses "Wrapper class"
+
+	Primitive data type		Wrapper class
+
+		boolean			Boolean
+		byte			Byte
+		short			Short
+		char			Character
+		int			Integer
+		long			Long
+		float			Float
+		double			Double
+
+	- 
+
+4:32 PM 8/26/2021
+
+	- Garbage collector helps to optimizate and
+	  manage behind objects
+
+	- versioning = software update
+	- jar = java archives
+	- war = web archives
+	- ear = enterprise archives
+
+	- UTF8 = iconos and emojis
+	
+	* Unit testing
+	
+	- Test are in the develop process
+	- A developer must give the solucion of
+	  a problem and the test  
+	- test ensure the code
+	- each class should be tested
+
+	- First principles
+
+	- Fast: Test must be fast
+	- Independent: a test musn't depend of other class
+	  instead a mock is used, a plane dependence to get
+	  resources
+	- Repetable: no matter the times it was executated
+	  each time must work with same results
+	- Self-validating: only two possible results
+	  (test pass or test doesn't pass)
+	- Timely: test must be written at the same
+	  momment when classes are written
+
+	- coverage codes: send reports to identify bad practices
+	
+	* Layers of a system
+	- testing views
+	- testing controller
+	- testing logic and services
+	- testing data base
+	- testing accesing data
+
+	* Black box
+	- code should give always an output for each
+	  input
+
+	* Polymorphism
+
+	- Static linkage
+	- Dynamic linkage
+
+6:31 PM 8/27/2021
+
+	* Data base
+
+	- Java has multithread functions
+
+	* SQL
+
+	- Structured Query Language
+	- A DB is like an excel sheet, it's composed
+	  of rows and columns
+
+	- There are relationships betwen sheets
+	- Is a container that storage data in a
+	  organized way
+	- saffer than a text file or excel sheet
+
+	- SQL vs NoSQL
+	- NoSQL
+	  allows agility, velocity
+	  don't repeat same information
+	  store files(json) or  
+
+	- SQL
+	  strong
+	  primitive data
+	  data plane
+
+	- RDBMS
+
+	- SQL Sentences
+
+	  DDL, create, alter, drop, rename, truncate
+	  grant, revoke
+
+	  DML (Data manipulation language)
+	  dont use autocommit
+	  insert, update, delete, merge, select
+
+	  TCL (Transaction control language)
+	  commit(confirm sentence), rollback(dont save chages)
+	  savepoint (save changes at that point)
+
+	- Type objects
+
+	  table, index, view, sequence, synonym, 
+	  constraint, user, role...
+
+	- Cardinalidad
+	  explain how relationships betwen databases
+	  works
+
+	* SQLite
+
+	- CLI is used with a server
+	  
+8:10 AM 8/28/2021(Last class)
+
+	- is easier to do a numeric search than an
+	  alphanumeric search
+	- so is prefereable define a numeric key
+	- Java EE
+	- Job opportunity: https://www.sofka.com.co/es/inicio/
+
+12:01 PM 8/29/2021
+
+	- verification and validation, two important
+	  concepts in the last years
+
+	- Verification: evaluates if the system 
+	  acomplish the design requirements 
+
+	- Validation: evaluates if the system 
+	  acomplish the design requirements of users
+	  and costumers
+
+	- Testing implements both concepts
+
+	* Types of tests
+
+	- Acceptance testing: evaluates if the system 
+	  software acomplish the business requirements
+	  (cucumber)
+
+	- System testing: evaluates the overall system 
+	  software, by mean actions that users could do,
+	  interactions betwen other systems asociated
+
+		- Stress testing
+		- Usability testing
+		- Compatibility testing
+
+	  usually are black box test, this is, without 
+	  knowledge about the main code
+	  (JMeter)
+
+	- Integration testing: interaction betwen two or
+	  more components
+
+	- Unitary testing: evaluates a class individual 
+	  behaviour
+	  
+	  usually are withe box test, this is, with 
+	  knowledge about the main code
+	  (JUnit)
+
+	* Junit
+
+	- Test automation, uses software tools to control
+	  the execution to control tests execution
+
+	- it compares results obtained vs results wanted
+
+	- Advantages:
+
+		- Reduces costs
+		- Reduces human issues
+		- Reduces quality diferences in
+	  	  different individuals
+
+	- Unitary testing are planned
+
+	  this plann includes: the types(levels), several
+	  set of tests
+
+	- Set of tests, set of test cases
+
+	- Test cases
+
+	  components:
+
+		input values
+		output values wanted
+		prefix values, values required by the 
+	 	system
+		postfix values, are required to back 
+		the system to a previous desired estate
+
+	- Test script (frameworks test automation)
+	  a test case is prepared to be executed automatically
+	  by test software
+
+	- There is a test framework for each programming
+	  language
+
+	- Most common frameworks support:
+
+		- Asertions, to test results obtained
+		  vs results wanted
+
+		- Share common data between diferent
+		  tests
+		
+		- Test sets
+
+		- Execute test by mean commands, or
+		  GUI
+
+	- Test uses asserts to verify the condition,
+	  if the assert is true then test passes if not,
+	  test doen't passes
+
+6:38 PM 9/2/2021
+
+	- 

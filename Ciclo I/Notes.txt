@@ -1,0 +1,897 @@
+05182021 (Inicio semana 1)
+
+	*Semana 1
+
+	- Uso de python, algoritmia
+	- Primeras sesiones, teoricas
+	- Algoritmia
+	- Introduccion a python
+	- operaciones en python
+
+	*Semana 2
+
+	- Condicionales
+	- Ciclos
+	- Requisitos funcionales, requerimientos del cliente
+
+	*Sem 3
+
+	- Subprogramas, metodos y funciones 
+	- Q. no es lo mismo?
+	- Vectores
+	- Programacion orientada a objetos
+
+	*Sem 4
+
+	- Clases derivadas
+	- Polimorfismo
+
+	*Sem 5
+
+	- Listas ligadas
+	- Pilas
+	- Colas
+	- Arreglos 2D
+
+	*Sem 6
+
+	- Librerias de Python (no hay que inventar la rueda)
+	- Interfaz grafica
+
+	*Sem 7
+
+	- Manejo de archivos
+	- Archivos JSON
+	- Archivos CSV (tablas simples)
+
+	*El espacio es centrado en la formacion, no en tutorias, para ello existe
+	 otro espacio
+
+	*Algoritmia
+
+	- Diseño y analisis de soluciones a problemas concretos
+	- Entender los algoritmos, sus caracterisitcas y estructura
+	- Def 1: secuencia logica finita de pasos para solucionar o cumplir
+	  un objetivo
+	- Def 2: Secuencia de instrucciones con las cuales se instruye a un agente
+	  para hacer una tarea en especifico
+
+	- Caracteristicas. Un algoritmo debe ser:
+	
+		- Legible: solucion sencilla, legible para el agente, detalles necesarios
+		- Correcto: Debe resolver un problema, que solucione el problema
+		- Preciso: Cada paso definido con exactitud
+		- Finito: Debe tener un inicio y un final
+
+	- Ejemplos de algoritmos
+		
+		- Operaciones matematicas
+		- Manuales de usuario
+
+	- Datos
+
+		- Los algoritmos trabajan coon datos, su flujo de informacion
+		- Grupos
+		  Numericos (int "no parte decimal", float "parte decimal")
+		  No numericos (string)
+		  Logicos (bool "True or False - 1 y/o 0")
+
+	- Operaciones. Ejecuta instrucciones tales como:
+
+		- Lectura, 
+		- Escritura, escribir el resultado en algun elemento. Ex, hoja, pantalla
+		- Asignacion. Asignar datos en la memoria
+		- Operaciones aritmeticas. Calculos
+		- Decisiones. Validacion de un dato, y seguimiento de flujos
+		- Repeticiones. Acciones ciclicas
+
+	- Estructura
+	
+		1. Entrada de datos (Controles), teclado, control, modem, sensores
+		   la informacion tiene que ser entendida por la maquina
+		   no siempre vamos a tener la necesidad de entender los software
+		   de entrada de datos
+		2. Procesamiento, tomar los datos de entrada para su procesamiento
+		3. Salida, interfaz de resultados
+
+	- Estructuras de construccion de un algoritmo
+
+		- Estructura de secuencia, pasos esenciales para dar la solucion (receta)
+		  multinucleo, procesos indeppendientes de forma paralela
+		- Estructura decisión, 
+		- Estructuras de ciclo,
+
+		- Q. un algoritmo puede emplear mas de una estructura de construccion?
+
+		  si
+
+		- Q. el lenguaje go permite ejecutar varias estructuras de secuencia de
+		  manera simultanea, go tambien permite hacerlo?
+		  go es mejor en terminos de rendiimiento
+		  python tiene la opcion de multihilo
+
+	- Algoritmos informaticos
+
+		- Sistemas operativos, capacidades de bajo nivel
+		- Robotica, inteligencia artificial, analitica de datos, python
+		- Desarrollo web, (python, django) y movil (android)
+		- videojuegos, unity, unreal, etc 
+
+	- La computadora
+
+		- Sistemas que no pueden vivir uno sin el otro
+
+		- Hardware. Parte tangible
+
+		- Software. Parte no tangible
+
+		- El manejo del hardware desde el software se puede dar desde dar un 
+		  rendimieto especiifico a u hardware especifico
+
+	- Componentes basicos con la computadora
+	
+		- Modelo, representacion de un sistema mas complejo, obteniendo mismos
+		  resultados (img. 05182021)
+	
+		- CPU. procesamieto datos de memoria
+
+		- BUSES DE CONTROL. Comunicacion entre CPU y MEMORIA
+
+		- MEMORIA. almacenamiento de datos
+
+05202021 
+
+	- Python para cyberseguridad, exploit (investigar)
+
+	- Resumen de la clase anterior
+
+	* Introduccion a la programacion con Python
+
+	- Pasos para construir un programa (img 1)
+
+		1. Analizar el problema
+		2. Diseñar la solucion
+		3. Implementar la solucion diseñada
+			3.1. Elaborar el algoritmo
+			3.2. Codificar la solucion en un lenguaje de programacion
+			3.3. Compilacion de la solucion
+			3.4. Pruebas sistematicas
+		4. Pruebas con el usuario
+		5. Despliegue
+		6. Mantenimiento, actualizaciones, etc
+
+	- Simbolos (img 2)
+
+		- Se usaran los mas relevantes
+
+	- Actividad 1
+
+		- Comparar cual de los dos numeros es mayor
+
+	- Introduccion a python
+
+		- proposito general
+		- lenguaje de alto nivel
+
+	- Propiedades de python (img 3)
+
+		- Desarrollo web e internet
+		- Acceso a base de datos
+		- Aplicaciones de escritorio
+
+	- Caracteristicas de python
+	
+		- Fuertemente tipado, esta pendiente de que las variables sean
+		  correctas
+
+		- Tipado dinamico, identifica el tipo de dato
+		- Simple
+
+	- Instalacion
+
+		- Revisar docker de python
+		- borrar pantalla simbolo de sistema clc
+
+	- Entorno de desarrollo integrado (IDE)
+
+		- Se sugiere visual studio code
+		
+
+	- Entornos web para python
+
+		- py2.codeskulptor.org
+		- programiz.com
+		- 
+
+	- Realizacion de programa hola mundo
+
+		- programa guardado en desktop
+		- abertura desde cmd
+
+	- exploracion de vriables
+
+		- python no necesita definir que tipo de variable es
+		- para validar que tipo de variable es se usa la funcion type()
+		- para identificar float, se usa . como expresion decimal
+		- la , se usa para tuple
+
+	- tipos de datos (img 4)
+
+	- comentarios de mas de una linea """
+
+	- HOMEWORK:
+
+		1. Enviarme imagenes de tablets
+		2. img 5, validando 3 num
+
+05222021
+
+	- Concatenacion con "+" para imprimir, solo con str
+	- ciclo for se asocia con cantidades de ciclos limitados
+	- ciclo while se asocia con cantidades de ciclos ilimitados
+	- Mas importante que la canidad de lineas es el rendimiento
+	  y la integridad del codigo
+	- negacion de un bool = not
+	- HOMEWORK: Resolver actividad 3 (img 1 y 2)
+
+05252021 (Inicio semana 2)
+
+	* Temas semana 2
+
+	- condicionales
+	- ciclos
+	- requisitos funcionales
+
+	* datos estructurados
+
+	- tuplas
+	  elemento inmutable
+	  debe contener minimo 2 elementos
+
+	- datos mutables requieren mayor procesamiento
+
+	* listas
+
+	- para acceder a un elemento de una lista dentro de otra lista
+	
+	  lista = [1, 2, 3, [1, 2]]
+	  print (list[3][1])
+
+
+05272021
+
+	- para cualquiera de los tres datos estrucurados se accede
+	  de la misma manera
+
+		nombre_variable[elemento]
+
+	* Ciclos
+	
+	- ciclo while, de caracter limitado e ilimitado
+	- ciclo while, de caracter limitado
+
+	- Act 1 (img 1)
+	- Act 2 (img 2)  
+
+05292021
+
+	- Resumen, ciclo while y for
+	- para manipular incremento en ciclo for 
+	  se puede emplear un tercer parametro que indica el incremento
+
+	- Actividad 2 (img 1)
+	- Actividad 3 (img 2)
+	- Actividad 4 (img 3)
+
+	* Requisitos
+
+	- Objetivos ingenieria de requerimientos
+	- De donde vienen los requerimientos
+	  requerimientos del negocio vs usuario vs software
+
+	- Grandes grupos:
+
+	  Requerimientos funconales, describen cualquier actividad que se debe realizar
+	  
+	  el equipo de desarrollo encargado debe generar documentacion interna
+
+	- Documentos en github
+
+	- Oferta de empleo en programacion
+	  https://globalhitss.com/
+	  https://www.linkedin.com/company/global-hitss/
+
+05312021
+
+	- VPL (Virtual Programming Lab)
+
+	- Resolucion de ejercicios
+	- HOMEWORK, descargar documentacion 2 primeras semanas
+
+06012021 (Inicio semana 3)
+
+	- Repositorio puesto en foro de novedades
+
+	* Subprogramas (Funciones)
+
+	- tipos de datos, estructuras de datos, ciclos y condicionales 
+	  (base de cualquier lenguaje)
+
+	- Son bloques de codigo aislados que cumplen una tarea particular
+
+	- Parsear, convertir informacion de un tipo de dato a otro
+
+	* Entradas y salidas:
+
+	- Pueden ser alimentadas por datos (parametros)
+	- Pueden retornar salidas (return)
+
+	- parametro en funcion solo local
+
+	- Actividad 1
+	- Actividad 2 (img 1)
+	- Actividad 3 (img 2)
+
+06032021
+
+	*Vectores (img 1)
+
+	- Actividad 4 (img 2) 
+
+	*Programacion orientada a objetos
+
+	  Paradigma de la programacion
+	  simulacion del mudo real
+	  Programacion coerente (agrupacion de elementos de mismas
+	  caracteristicas)
+	  Reutilizacion de codigo (por medio de fuciones)
+
+	- Elementos
+
+		Clases: definen la estructura de los objetos indicando sus
+		propiedades y metodos tendran los objetos (Agrupaciones)
+
+		- superclases
+			clases
+				subclases
+
+		Atributos: caracteristicas del objeto (ej. color, marca)
+
+		Metodos: acciones que ejecutan, ejecutan el comportamiento del
+		objeto (ej. encender, avanzar, retroceder)
+
+	- Objeto
+		
+		es la instancia (representacion) de una clase 
+
+	- Clases en python
+
+		- Constructor: incializa cada objeto, en python el metodo es
+		  __init__(self), identificador de ese mismo objeto
+
+		- Parametro sel: una referencia a si mismo
+
+		- Atributo: 
+
+	- Intentar dejar una clase por archivo
+
+	*Definicion de la clase vector:
+
+		- Operaciones vectoriales
+		- Para python se deben incorporar modulos para trabajo con
+		  vectores
+
+	* dir, para observar los atributos y metodos de la clase
+
+06052021
+
+	S2 FUNDAMENTOS DE PROGRAMACION > Expresiones relacionales y lógicas e 
+				      instrucción if – else
+
+	- Expresiones relacionales (logicas), expresion que efectua
+		  una comparacion, retorna un valor logico (True or False)
+
+		  sucesion de operandos logicos y operadores o conectores
+		  lógicos
+
+	- Operadores relacionales:
+		> mayor que
+		>= mayor igual que
+		< menor que
+		<= menor igual que
+		== igual
+		!= diferente
+
+	- Operandos logicos: son expresiones relacionales o expresiones
+	  aritmeticas conectadas con operadores relacionales
+
+	- Conectores u operadores logicos:
+
+		and: conjuncion
+		or: disyuncion
+		not: negacion
+
+06072021
+
+	S2 FUNDAMENTOS DE PROGRAMACION > Evaluación expresiones relacionales y lógicas
+	
+		- Prioridad:
+
+		1. se evalua (not)	
+		2. se evalua conjunciones (and)
+		3. se evaluan disyunciones (or)
+
+		- Asociatividad: operadores consecutivos de la misma prioridad
+		  se evaluaran de izquierda a derecha en orden de aparicion.
+
+		- Evaluacion de expresiones:
+
+		1. Expresiones aritmeticas
+		2. Expresiones relacionales
+		3. Operadores logicos
+
+	S2 FUNDAMENTOS DE PROGRAMACION > Instrucción if – else (instrucciones
+					 de decision)
+
+	S2 FUNDAMENTOS DE PROGRAMACION > Ejercicios con la instrucción if-else 
+
+		- Las variables lógicas son variables que solo pueden tomar 
+		dos valores: verdadero o falso. En general, una variable 
+		lógica, en el ambiente de computadores, es una variable de 
+		un solo bit, el cual puede ser 0 o 1. Por convención se ha 
+		adoptado que el 0 representa falso y el 1 representa verdadero.
+
+	S2  INSTRUCCIONES if – else ANIDADAS > Instrucciones de desición anidadas
+
+	S2  INSTRUCCIONES if – else ANIDADAS > Ejercicios con la instrucción if-else anidadas
+
+	S2  ESTRUCTURA if – elif – else > Proceso de selección múltiple
+
+		- Para el caso de seleccion multiple se usa if como opcion 1
+		  elif como opciones consecutivas y else como ultima opcion
+		  de respuesta (Instrucción casos switch en C y JAVA)
+
+	S2  ESTRUCTURA if – elif – else > Ejercicio de selección múltiple
+
+	S2  ESTRUCTURA CICLO E INSTRUCCION WHILE > Estructura ciclo
+
+		- Variable controladora del ciclo: variable
+		  que se evalua en la condicion, debe modificarse en el
+		  conjunto de instrucciones del ciclo para no entrar en
+		  bucles infito
+
+	S2  ESTRUCTURA CICLO E INSTRUCCION WHILE > Contador, acumulador, promedia
+
+		- Contador: cuenta el numero de ocurrencias de un evento
+		  dentro de un ciclo
+	
+		- Acumulador: variable en la cual se lleva el total de un
+		  concepto especifico en un ciclo
+
+		- Promedio: es el valor medio de un evento cuantificable. Se
+		  obtiene dividiendo un acumulador entre su respectivo 
+		  contador
+
+06082021
+
+	S2  ESTRUCTURA CICLO E INSTRUCCION WHILE > Ejemplos de aplicación de la 
+						   instrucción while
+
+		- 
+
+	S2  ESTRUCTURA CICLO E INSTRUCCION WHILE > Ciclos anidados
+
+		- Hay situaciones en las que se requiere tener un ciclo dentro de otro
+		- Para que finalice un ciclo externo deben haber finalizado los ciclos externos
+		- 
+
+06082021 (Inicio semana 4)
+
+	* Clases derivadas, herencia, polimorfismo y excepciones
+
+	- Problema #8 del taller
+	- al agregar len toma todas las posiciones de la lista
+	- Se pueden usar funciones que trabajen de manera interna
+
+	CLASES DERIVADAS
+
+	creacion de nuevas clases (clase base o super clase), 
+	basadas en otras clases (clase derivada o sub clase)
+
+	POLIMORFISMO
+
+	Es la capacidad de tomar mas de una forma, redefinir metodos para
+	que trabajen de forma diferente
+
+	FUNCION super()
+
+	permite invocar conservar un metodo de una clase padre (primaria)
+	desde una clase hija (secundaria) sin tener que nombrarla explicitamente
+
+06092021
+
+	S2  INSTRUCCION for >
+
+		- Valor inicial:
+		  desde donde comienza el ciclo
+
+		- Valor final: donde debe dermiar el ciclo
+
+		- Variacion: forma en la que se modifica la variable
+			     contrladora del ciclo
+
+	S2  INSTRUCCION for > Instrucciones continue y break
+
+		- continue: no ejecuta las instrucciones que siguen
+		  si no que continua el ciclo
+
+		- break: rompe el ciclo
+
+	S2  INSTRUCCION for > Ejemplos de aplicación de la instrucción for
+
+
+06102021
+
+	*Ejemplificacion de polimorfismo
+
+	- Actividad 1 (img 1)
+
+	- Ejercicio 5
+
+	- Metodo join(), traduccion y concatenacion de lista a str
+
+		>>> lista = ['hola', 'mundo']
+		>>> '-'.join(lista)
+		'hola-mundo'
+
+	*Sobrecarga de operadores
+
+	- todos los metodos se pueden sobrecargar (aplicar polimorfismo)
+	- Actividad 3 (img 3)
+
+06122021
+
+	*Clase heredada
+
+		- obtener las funciones de una clase en otra
+		  y agregar modificaciones
+
+		- Q. que es sobrecarga de operaciones?
+
+	*Variables globales
+
+		- se define por fuera de todas las funciones o clases
+		  existe en todo el contexto de un programa en python
+
+		- en ocaciones es necesario convertir una variable local
+		  en una variable global
+
+		- python permite modificar variables globales con el
+		  operador 
+
+		- cuando una variable esta sin sangria es adsequible
+		  en todos los niveles del programa
+
+		- dos opciones: hacer una variable global con
+		  el modulo (global) antes del nombre de
+		  la variable en una funcion. Ó conectarse a 
+		  una variable local
+
+	*Matrices 2D
+
+		- coleccion ordenada de datos, em matrices 2D se
+		  requieren 2 indices, en un vector solo se
+		  requiere 1 indice
+
+		- filas - columnas
+
+	- Suma de matrices
+
+		- 
+
+	- Multipicacion de matrices
+
+		- 
+
+		- representacion matricial de un vector dentro de
+		  otro vector
+
+	- Matriz transpuesta
+
+		- convierte filas a columnas o biseversa
+
+	- HOMEWORK: explorar ls otros metodos, 
+	  validar las operaciones multiplicacion y suma de matrices
+
+	*Manejo de excepciones
+
+	captura de errores y toma de acciones
+
+	- modulo "try"
+
+06152021 (Inicio semana 5)
+
+	- Clase suspendida
+
+	S2  INSTRUCCION for > Ejemplos de aplicación de la instrucción for
+
+		- Cuando la variación es positiva, el valor final debe ser 
+		  mayor o igual que el valor inicial. 
+
+		- Cuando la variación es negativa, el valor final debe ser 
+		  menor o igual que el valor final.
+
+		- Si no se cumple ninguna de las dos condiciones anteriores, 
+		  no entra a ejecutar las instrucciones del ciclo.
+
+
+		- for vs while
+
+		- Cuando la terminación del ciclo esté controlada por el resultado 
+		  de una operación, es necesario utilizar while en vez de for
+
+		- Se recomienda utilizar la instrucción for cuando las instrucciones 
+		  del ciclo se ejecutan un número fijo de veces, con una variación predefinida.
+
+	S2  Introducción a Ingeniería de Requisitos > Generalidades
+
+		- Que es? Ingeniería de Requisitos es un enfoque sistemático y disciplinado 
+		  para la especificación y gestión
+
+		- Objetivos
+
+		  Conocer los requisitos relevantes, lograr un acuerdo entre los implicados 
+		  (stakeholders) acerca de estos requisitos, documentar los requisitos de 
+		  acuerdo a las normas y estándares dados, y gestionarlos de forma sistemática.
+
+		  Comprender y documentar los deseos y necesidades de los implicados, y a 
+		  partir de estos, especificar y gestionar los requisitos para minimizar el 
+		  riesgo de tener un sistema que no cumple con los deseos y necesidades de 
+		  los implicados.
+
+		- Stakeholder:
+
+		  Es una persona u organización que tiene una influencia (directa o indirecta)
+		  sobre los requisitos del sistema. "Son la fuente más importante de requisitos"
+
+		- Documento de requisitos de sistema (SRS), Software Requirements Specification
+
+	S2  Introducción a Ingeniería de Requisitos > Educción de requisitos
+
+		- Que es?
+
+		  Es el proceso durante el cual se usan diferentes técnicas para obtener 
+		  requisitos de los implicados (stakeholders) y de otras fuentes, y para 
+		  refinar los requisitos en un mayor detalle.
+
+		- Fases
+
+		1. Identificación de las fuentes de información (implicados, documentos, sistemas en opracion)
+
+			Es recomendable hacer una lista inicial de todos los 
+		  	implicados conocidos.
+
+			- Preguntas para Identificar las Fuentes de Información
+
+			¿Quién es el cliente?
+			¿De quién es el sistema?
+			¿Hay algún sistema personalizado disponible?
+			¿Cuáles son los documentos relacionados con la aplicación?
+			¿Es posible volver a utilizar artefactos de software?
+			¿Cuáles son los documentos más citados por los usuarios de otros sistemas?
+
+			- Modelo Kano
+
+				sobrepasar las expectativas del cliente
+
+			- Técnicas de Educción de Requisitos
+
+			    Tecnicas de encuestas: union de entrevistas y cuestionarios
+			    bibliografia, Pohl, K., & Rupp, C. (2015). Requirements engineering fundamentals: a study guide for the certified professional for requirements engineering exam-foundation level-IREB compliant. Rocky Nook, Inc.
+			    Zowghi, D., & Coulin, C. (2005). Requirements elicitation: A survey of techniques, approaches, and tools. In Engineering and managing software requirements (pp. 19-46). Springer Berlin Heidelberg.
+			    Kano, N., Seraku, N., Takahashi, F., & Tsuji, S. (1984). Attractive quality and must-be quality.
+
+			    Tecnicas de creatividad: lluvia de ideas, cambio de perspectiva, 
+			    tecnicas de analogia
+
+			    Tecnicas centradas en documentos: arqueologia de sistema, lectura con
+			    una perspectiva particular, reuso
+
+			    Tecnicas de observacion: observacion de campo, como aprendiz
+			    
+
+		2. Recolección de la información
+
+			- Documentación de requisitos:
+
+			  En Ingeniería de Requisitos toda la información resultante de 
+			  cualquier actividad debe ser documentada
+
+			 - Especificacion de requisitos:
+			  
+			  Protocolos de entrevistas, Reportes de validacion, Actividades de
+		   	  negociacion, Solicitudes de cambios
+
+			- Documentacion desde tres perspectivas:
+
+			  Datos: Perspectiva o punto de vista estático o estructural, Datos 
+			  de entrada y de salida, dependencias
+
+			  Funcional: Cuál información es recibida desde el contexto del 
+			  sistema y procesada por el mismo, Cuál información es devuelta del 
+		     	  sistema a su contexto, Orden en que la información en procesada 
+			  por el sistema
+
+			  De comportamiento: Información acerca del sistema y cómo está 
+			  embebido en el contexto, Reacciones a eventos, transiciones de 
+			  eventos y efectos del sistema sobre su contexto
+
+			- Cualquier documento deberia incluir:
+
+			  Introducción: Propósito, sistema a desarrollar, implicados, 
+		   	  definiciones, referencias
+
+
+			  Visión general: Entorno del sistema, descripción de la 
+			  arquitectura, funcionalidad, usuarios y audiencia objetivo, 
+			  restricciones, supuestos
+
+			  Requisitos: Requisitos funcionales y no funcionales
+
+			  Apéndice
+
+			  Índice
+
+			- Bibliografia, Pohl, K., & Rupp, C. (2015). Requirements 
+			  engineering fundamentals: a study guide for the certified 
+			  professional for requirements engineering exam-foundation 
+			  level-IREB compliant. Rocky Nook, Inc.
+
+			- ISO, I. (2011). IEEE. 29148: 2011-Systems and software 
+			  engineering-Requirements engineering. Technical report.
+
+		3. Comunicación
+
+06162021 
+
+	S3 - T7 Subprogramas, metodos y funciones > Subprogramas
+
+		- Programa que desarrolla o efectua una tarea especifica y retorna unvalor
+		- Una misma tarea debe ser ejecutada en diferentes partes, 
+		- Ej. determinar el numero de combinaciones posibles de n elementos en grupos
+		  de a r
+
+
+	S3 - T7 Subprogramas, metodos y funciones > Definición, parámetros y variables locales
+
+		- Los componentes basicos de un sub-programa son:
+
+			- palbra clave def
+			- nombre del subprograma
+			- datos de entrada del sub-programa "parametros" van entre parentesis
+			- variables locales dentro del sub-programa
+			- instruccion return, que retorna valores calculados
+			  hay situaciones en las cuales solo se requiere que haga una tarea 
+			  sin retornar ningún valor.
+
+		- Main, programa llamante de las funciones
+
+		- Variables globales: Si dentro de un subprograma se utilizan variables 
+		  definidas por fuera del subprograma, dichas variables se llaman globales. 
+		  En Python, si se desea trabajar variables globales, hay que especificar 
+		  dentro del subprograma cuáles son esas variables globales. 
+
+			global "variable"
+
+	S3 - T7 Subprogramas, metodos y funciones > Creación de archivos con subprogramas
+
+		- se pueden usar las funciones de otros archivos llamandolas con la
+		  funcion "import"
+
+	S3 - T8 Vectores > Presentación de la necesidad de uso
+
+		- 
+
+06172021 
+
+	*Tutoria
+	del(), elimina la lista
+	del([]), elimina un objeto especifico en la posicion de la lista
+	pop(), elimina un objeto especifico en la posicion de la lista
+	remove(), elimina el objeto definido entre parentesis, el primero que encuentre
+	extend(), para str, list, tupla. añade uno de estos elementos al final de la lista
+	append(), agrega datos en la ultima posicion de la lista
+	insert(posicion, dato), agrega dato en la posicion especificada
+
+06192021
+
+	- Lista enlazada (se usa en general para diferentes lenguajes de programacion)
+	- un nodo esta definido desde su dato y su liga, el dato es la unidad de informacion y la liga
+	  es la referencia para ligar de un nodo al otro 
+
+	- variable d hace referencia a "data", variable p hace referencia a "pointer"
+
+	- para denotar el fin del recorrido el ultimo dato debe tener
+	  asociado en su liga un NULL
+
+	- Para python no es tan necesario el concepto de lista ligada
+
+	*Pilas y colas
+
+	- Lunes proxima clase 6 - 8 
+
+	- HOMEWORK: Completar reto ahorcado
+
+06222021
+
+	- Listas ligadas, colas
+	- 
+
+06242021
+
+	*Librerias
+
+	- tkinter, binding de la biblioteca grafica Tcl/Tk.
+	  Tk se encuentra disponible para varios lenguajes de programacion 
+	  entre los cuales se encuentra Python con el nombre Tkinter
+
+	- Elementos basicos
+		
+		- Tk(), crea ventana raiz (root) del proyecto
+
+		- mainloop(), ventana raiz que controla el bucle infinito para que se muestre la GUI
+		  y se gestionen los eventos
+
+		- Evento, un suceso que ocurre en la interfaz grafica 
+
+06262021
+
+	- https://www.tutorialspoint.com/python/tk_button.htm
+	- repeticion de la ultima hora
+
+06282021 (recuperacion de clase)
+
+	- Frame
+
+06292021 (inicio semana 7)
+
+	- with open
+	- .json
+
+07012021 
+
+	*CSV
+
+	- pagina web
+
+		- html - esqueleto
+		- css - apariencia
+		- javascript - logica
+
+	  el navegador interpreta todas las acciones
+
+	- almacenar datos en forma de tabla
+	- columnas por coma
+	- filas por salto de linea
+	- modulos de python para el trabajo de csv
+	
+		- pandas
+		- csv
+
+07032021
+
+	interfaz grafica + manejo de datos .csv
+
+	* pruebas unitarias
+
+	- control sobre la calidad del software
+	 
+	- se compone de unidades de codigo (clase, funcion, etc)
+
+	- caracteristicas de las pruebas unitarias
+
+		- no necesitan intervencion manual
+		- deben ser repetibles las veces que sea necesario
+		- deben cubrir la mayor parte de la 
+		- es un programa independiente 
+		- debe ser claro el objetivo del test

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible"
+             content="IE=edge">
+       <meta name="viewport"
+             content="width=device-width, initial-scale=1.0">
+       <link rel="preconnect"
+             href="https://fonts.googleapis.com">
+       <link rel="preconnect"
+             href="https://fonts.gstatic.com"
+             crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+             rel="stylesheet">
+       <title>Piano</title>
+       <link rel="stylesheet"
+             href="css/estilos.css">
+</head>
+
+<body>
+
+       <h1>PIANO</h1>
+       <div class="piano">
+              <div onclick="reproducir('do')" class="tecla">DO</div>
+              <div onclick="reproducir('dos')" class="tecla sostenido">DO#</div>
+              <div onclick="reproducir('re')" class="tecla">RE</div>
+              <div onclick="reproducir('res')" class="tecla sostenido">RE#</div>
+              <div onclick="reproducir('mi')" class="tecla">MI</div>
+              <div onclick="reproducir('fa')" class="tecla">FA</div>
+              <div onclick="reproducir('fas')" class="tecla sostenido">FA#</div>
+              <div onclick="reproducir('sol')" class="tecla">SOL</div>
+              <div onclick="reproducir('sols')" class="tecla sostenido">SOL#</div>
+              <div onclick="reproducir('la')" class="tecla">LA</div>
+              <div onclick="reproducir('las')" class="tecla sostenido">LA#</div>
+              <div onclick="reproducir('si')" class="tecla">SI</div>
+       </div>
+
+       <audio src="sonidos/do.wav"
+       id="audio-do"     
+       type="audio/wav"></audio>
+
+       <audio src="sonidos/dos.wav"
+       id="audio-dos"     
+       type="audio/wav"></audio>
+
+       <audio src="sonidos/re.wav"
+       id="audio-re"></audio> 
+
+       <audio src="sonidos/res.wav"
+       id="audio-res"></audio> 
+
+       type="audio/wav"></audio>
+       <audio src="sonidos/mi.wav"
+       id="audio-mi"     
+
+       type="audio/wav"></audio>
+       <audio src="sonidos/fa.wav"
+       id="audio-fa"   
+
+       type="audio/wav"></audio>
+       <audio src="sonidos/fas.wav"
+       id="audio-fas"   
+
+       type="audio/wav"></audio>
+       <audio src="sonidos/sol.wav"
+       id="audio-sol" 
+
+       type="audio/wav"></audio>
+       <audio src="sonidos/sols.wav"
+       id="audio-sols"   
+
+       type="audio/wav"></audio>
+       <audio src="sonidos/la.wav"
+       id="audio-la"  
+       
+       type="audio/wav"></audio>
+       <audio src="sonidos/las.wav"
+       id="audio-las"  
+       
+       type="audio/wav"></audio>
+       <audio src="sonidos/si.wav"
+       id="audio-si"     
+       type="audio/wav"></audio>
+
+       <script src="js/app.js"></script>
+</body>
+
+</html>

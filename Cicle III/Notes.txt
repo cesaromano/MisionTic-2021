@@ -1,0 +1,799 @@
+Cicle III objectives
+
+	- Improve the knowledge about agile methodologies like
+	  scrum for app development
+	- Create UI to ofer a superior UX
+	- Increase apps security
+	- Use communication protocols to consume web services
+	- Use platforms to deploy built devices
+	- Admin and manage development enviroment fonts to
+	  share them with the team work
+
+6:00 PM 9/7/2021
+
+	*Generalidades
+
+	- Horarios de tutorias(cualquier tutor):
+
+	  Ximena Gonzalez, nuestro tutor
+	  martes y jueves de 8 a 10
+	  
+
+	- Horarios de revision de sprint:
+
+	  lunes y miercoles 5 a 7
+
+	- Carlos Andres Charris Sandoval
+	  Java 8 años
+	  Nacional 5 años
+	  PlayStation 2 años
+
+	- ABP, aprendizaje basado en proyectos
+
+	- Stack(Plataformas de trabajo)
+
+	  Mongo, expess, react y node
+
+	- Historias de usuario
+
+	- Grupos de trabajo
+
+	  Universidad aun confirma, posibilidad de dejar
+	  coonformar los grupos
+
+	- Empatia y humildad como pilares de desarrollo
+
+	- Typescript (tipado)
+
+	- Actualmente se trabaja mas Typescript
+
+	- Consejo, aprender javascript
+
+	* SCRUM
+
+	- Metodologias agiles
+
+	  90's, desarrollo de software era muy rigido
+
+	  documentation supremacy
+
+	  1970. Winston W. Royce, purposes a secuencial 
+	  software developing model
+
+	  1985. EEUU Standar model based in secuencial
+	  model (2167 standar)
+
+	  1900 - 2000 Light Frameworks, new methods
+	  based in ppular patterns
+
+	  1994 Chaos report - investigation
+	  succes rate 
+	  16.2% - Delivered on time
+	  52.7% - Delivered late or overcoasted
+	  31.31% - canceled proyects
+
+	  1994 EEUU Replaced their standar model with
+	  MIL-STD-498 standar, an iterative model
+
+	  2001 Agile manifesto, where defined common 4 values 
+	  and 12 principles  
+
+	  2012 Chaos report(2011 based)
+	  42% - Delivered on time
+	  49% - Challenge deliveries
+	  9% - canceled proyects
+
+	  SCRUM and XP, most common methodology
+
+	  Agile Manifesto (https://agilemanifesto.org/)
+
+	* Values
+
+	1. Individual and interactions betwen proccesess
+	    and tools
+
+	2. Software function on oficial documentation
+
+	3. Customer colaboration, better understanding of
+	   business logic with te customer experience
+
+	4. being flexible on following a plan, try sveral
+	   options
+
+	- front-end is growing up fater
+
+	* Principles
+
+	- Customer satisfaction
+
+	- Dynamic, changes are welcomed, purpose 
+	  flexily designs
+
+	- Frecuent delivers
+
+	- Dayli collaboration betwen all parts
+
+	- Motiation, support and collaboration
+
+	- Face to face comunication
+
+	- Deliver functional software is the way how progress
+	  is measured
+
+	- Sostainable ritm
+
+	- Simplicity, optimization
+
+	- Self-managing teams
+
+	- Constant improvement and reflection
+
+	* What is agile?
+
+	- Quality
+	- punctuality
+	- ...
+
+	* Methodologies
+
+	- 
+
+	* XP Values (Extreme Programming)
+
+	- feedback
+	- espect
+	- courage
+	- comunication
+
+	Process
+
+	- User story
+	- Values
+	- Aceptation testing criteria
+	- Iteration plan
+
+	- clear and simple software is the most important
+	  
+	* Kanban
+
+	- Trello is an kanban based scheme
+	- Tasks planning 
+	- 
+
+	* Scrum
+
+	- Sprint (life cicle)
+
+	  short sprints
+
+	- Product Backlog
+
+	  getting ideas (brainstorm, etc)
+	  requirements
+
+	- Sprint plan(first sprint)
+
+	- Second Sprint
+
+	- Daily scrum (daily meeting)
+
+	- Grooming
+	  Discuss product backlog
+	
+	  Product backlog always fill
+
+	- Review
+	
+	  functions, issues, etc
+
+	- Changes deppend on the necessecity and
+	  urgency, if the change is too important
+	  to the project must be reported to 
+	  product backlog
+
+	* Roles
+
+	- Product owner
+	  
+	  main communication with costumer
+	  managmente of project
+
+	- Product Backlog
+
+	- Scrum Master
+
+	  Ensures that scrum being understanding and appling
+	 
+	  bring tools to the well function of the team
+
+	  
+	- Development Team
+
+	  build and deliver product
+
+	  is a multifunctional team that has all the
+	  skills to deliver a quality product
+
+	- Stakeholders
+
+	  users(person that uses the app)
+	  client(
+
+	* Events
+
+	- Product Backlog
+
+	  Getting requirements 
+
+	- Sprint backlog
+
+	  especific requirements to work at week
+
+	- Functional product increment
+
+	- Sprint
+
+	  fix time block to create a functional product
+	  increment
+
+	- Planning 
+
+	  meeting at spring beginning
+
+	- Daily
+
+	  15 minutes daily meet
+
+	  must be answered the questions:
+
+	  ¿Qué hice ayer para contribuir al Sprint Goal?
+	  ¿Qué voy a hacer hoy para contribuir al Sprint Goal?
+	  ¿Tengo algún impedimento que me impida entregar?
+
+	
+	- Review
+
+	  project overview
+
+	- Retrospective
+
+	  
+	- Method waterfall vs agile
+
+	  waterfall is lineal
+
+	  agile is iterative
+
+12:11 PM 9/13/2021 (9/11/2021)
+
+	*Owning requirements
+
+	- Client brings requirements to rpoduct backlog
+	- product owner take those requirements along all
+	  the project
+
+	*User stories
+	
+	- requirement are converted to user stories 
+	- user stories are composed by
+
+		- codification
+		- description, como, quiero, para
+		- Conditions
+
+	- Then user stories are priorizing
+	- Send to product backlog
+
+	* Refinement
+
+	- User stories are evaluated by all the team
+	  and new technicall aspects are considered
+	- When a user story becomes more complex it's
+	  splited
+
+	* Tasking
+
+	- points are given to user stories deppending on
+	  how complex could be
+	- time could be giving too
+	- we can use balsamiq, figma and adobe xd to sketch 
+	  the app appearence
+	- Team vote for each story
+	- a team velocity is determined to know if that
+	  team have the capacity to acomplish the
+	  US
+	- Determine the time available of each member
+
+	* Product increment
+
+	- Only US determined are included in the sprint
+	  remainder are sended to the backlog
+
+	* Sprint review
+
+	- ended features are shown
+
+	* Sprint retrospective
+
+	- a reflection about the work done in order to
+	  improve
+
+	* Size sprint definition, how many time it takes
+	  to do?
+
+	- Product owner determines if the US meets the
+	  requirements
+	
+	* GIT
+
+	- sistema de control de versiones
+	  document and store every change
+
+	- System control version
+
+	  local, work on my pc, risk of miss information
+	  is higher
+
+	  centralized, stored on a (super-server)
+
+	  Distributed, distributed along many servers
+	  arround the world
+
+	- Git states
+
+	  working directory
+	  staging area
+	  git repository
+
+	  git =! github
+
+	  git, plane text
+	  a type of control version
+
+	  github, client
+	  an administrator of git type
+
+	  Working area, all files of the project
+
+	  Staging area, changes thar must be saved
+	  prepare files
+
+	  Repository, changes saved
+
+	  Working area
+
+	  - configure name and emai
+	  - initialize
+	    creating .git folder for tracking the process
+	    
+	  Staging area
+
+	  git commit m "Se adiciona" = save or confirm
+	  git status = to view the files status
+	  git add = to track file
+
+11:11 AM 9/13/2021
+
+	- Today meeting
+
+		- Asign team conformation foro
+		- Define the arquitecture to solve the
+	  	  final proyect
+		- Define dates for sprints
+		- Plan first spring
+		- Must be filled one form per team or
+	 	  per person in team
+		- Just once tutor meet at week (sprint tracking)
+		- sprints has 80% of the assessment
+		- Syncrhonize git and trello
+		- Web application must have five modules
+		- There will a virtual exibition of the 
+	 	  projects
+	 	
+	- https://docs.google.com/spreadsheets/d/1F6Vng5fOnG-Fcr91oWRFgBk3vs0wWZdU/edit#gid=1855402416
+	- Miercoles tutorias, semana dos miercoles
+
+	- Daily sprint, lun - vier 5:45 - 6, mar 8 - 8:15
+	- Task: share drive
+
+6:08 PM 9/14/2021
+
+	* Un solo Daily por grupo
+	- cada persona envia individual pero con las mismas respuestas
+	* 10 min de revision, con sprint ya terminado 60% al menos
+	- rubrica de evaluacion
+	- son entregadas sugerencias
+	* Invite ximena to preview
+
+	* HTML5
+
+	- HTML + JavaScript + CSS
+	- W3C Estandar, consorcio de creacion xhtml, cerrado
+	- Nuevo consorcio, abre paso a html5
+
+	- Tools
+
+	- Package manage
+	  NPM (Node.Js)
+	- IDE / Code Editor
+	  WebStorm
+	  Sublime Text
+	  Atom
+	  VS Code
+	- Browsers
+	  Firefox
+	  Google Chrome
+
+	- HTML like the body structure
+	- JS like the logic
+	- CSS like the appeareance
+
+	* HTML 4 vs 5
+
+	- 4. each tag had a div
+	- 5. the div sintax is given oonly to the machine
+
+	- Search Engine Optimizer
+	  optimize the search for my page
+	- there are obsolete tags
+	- 5. improve: semantic, peformance(but need mor memory)
+	  , connectivity, offline and storage, device access, 
+	  multimedia, styling, 3D graphics and effects
+
+	- Library vs native
+	  native is faster because it dont deppends on
+	  libraries
+
+	- 4. servers proceced all the information
+	- 5. procesess are distributed to the servers
+	  and local machine
+
+	* What is html
+
+	- a demarked language	
+	- would be with autoclosing or not 
+
+	- <tagname (open tag, attribute)> tag(content) </tagname(tag close)>
+	- https://gist.github.com/andreasonny83/b24e38b7772a3ea362d8e8d238d5a7bc
+
+	- .gitignore, helpt to ignore garbage files
+
+	* Git
+
+	- managment config, to identify and define the elements
+	  on the system, to track the developh of the software
+	  
+	  it register the changes on each element in our 
+
+	Mi nombre es Romano Delgado, 
+soy licenciado en diseño tecnologico, 
+tengo 25 años y vivo en la ciudad de Bogotá. 
+Actualmente me encuentro cursando el ciclo 3 
+del programa "MisionTic2022" con la universidad de antioquia.
+Me gusta leer, escuchar diferentes tipos de musica 
+y aprender nuevas cosas.
+
+	- token git: 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
+
+5:25 PM 9/15/2021
+
+	- First sprint meeting
+	- each user story must be in the backlog
+	- we can create our users story, but doesnt
+	  be redundant
+
+
+	- que hice ayer?
+
+	  Agregar cambios individuales en repositorio (pull/request).
+	  Conformar documento de entrega para semana 1 (agregar pantallazos).
+	  Agendamiento tutoría sprint 1.
+
+	- que voy a hacer hoy?
+
+	  ajustes y presentacion del documento
+	  tutoria sprint 1
+	  Agregar cambios individuales en repositorio (pull/request)
+
+	- impedimentos
+
+	  problema con el comando push, debido a 
+	  valdacion en el registro desde equipo local
+
+	  cruzamento de requisitos push, por lo que
+	  se tuvo que actualizar con merge
+
+	  falta de concimieto y experiencia para llamar 
+	  las ramas
+
+	  problemas tecnicos en la reunion del daily sprint
+	  anterior
+
+6:09 PM 9/16/2021
+
+	- .gitignore helps to avoid the files in
+	  musnt be uploaded
+
+	- git doesnt track void folders
+	- git kraken, git desktop, towe to 
+	  track git changes
+
+	- we can validate html pages with https://validator.w3.org/#validate_by_input
+
+8:23 AM 9/18/2021
+
+	- we'll work with firebase
+	- bootstrap gives syles
+	- is recomended to use a master and a development branch
+	  in order to
+	- to create github repository we have to folow
+	  the git instructions to configure
+
+	- git remote allows conect to a web
+	- fetch, download
+	- push, send
+
+	- html structures code
+
+	- css arrange that structures
+
+	- 9:44am
+
+9:10 AM 9/20/2021
+
+	- Obtencion de imagenes gratuitas: 
+	  https://www.pexels.com/es-es/
+
+	- Pixels:
+
+	 	physical, 
+		css, measure unit to draw pixels on
+	  	viewport
+
+	- html, pixel ratio, distance betwen physical 
+	  and css pixels
+
+	- fontawseome to get fonts(logos)
+	  https://fontawesome.com/
+
+	- test server create by teacher
+	  https://express-server-method.herokuapp.com/
+
+	- JSON viewer pro estension, allows to improve
+	  the way db looks
+
+	- 2:45
+	
+6:18 PM 9/21/2021
+
+	- css
+	- Browsers just can understand html, JS and css
+
+	- Styles writen in head to show the appeareane first
+
+	- Every element showed on web is a box
+
+	- Scheme:
+
+	 		declaracion
+
+	  body{background-color: rgb (255,255, 0);}
+
+	  selector  propiedad	   valor
+
+	- 4 rules:
+
+	  Selectors
+
+	  Inherit
+
+	  Cascade
+
+	  Specificity: there are selectors that has more weight to	
+	  be chrged
+
+	  element, tag, 1
+	  class, attribute, pseudo-class, 10
+	  id, 100
+	  inline, 1000
+	  important, not recommended
+
+	  Descendant
+
+	* Bootstrap 
+
+	  - helps to style web pages faster
+	  - it has a computer cost
+	  - responsive use breakpoint, depending on
+	    the required size, the view is seted
+
+	* Firebase
+
+	  - Create a basic project
+
+5:24 PM 9/24/2021
+
+	- first UI, register and login
+	- Q. quien otorga el rol a la persona que se registra?
+	- registro queda pendiente, administrador evalua
+	  el rol que corresponde
+	- cada rol tiene unos permisos especificos
+	- Sprint 2 sin base de datos, funcional en front end solamente
+
+8:12 AM 9/25/2021
+
+	- css
+	- all elements are boxes
+
+	* Box model
+
+	- types:
+
+	block boxes
+	inline boxes
+	
+	- margin, border, padding, content
+
+	- display block, one after other
+	- display inline, 
+	- display inline-block, best option
+
+	- div, fill the screen wheight
+	- to remove default browser styles
+	  we can use, normalizer.com
+	  and add in the head as a link
+
+8:44 AM 9/27/2021
+
+	- rem
+	- mobile first, must be designed from 
+	  smallest screen sizes to largest
+	- small screen sizes, more colums
+	- larger screen sizes, less colums
+	- Is recomendable to use "img-fluid"
+	  class to resize images
+
+6:07 PM 9/28/2021
+
+	*Javascript
+
+	- Typescript tipdo
+	- DOM (Document Object Model)
+	- CSSOM (Css Object Model)
+
+	* Precedence table
+
+	- SPA vs Traditional web
+	- Node JS version 14
+	- Eslint helps to make changes
+
+	- Class tomorrow
+
+6:42 PM 9/30/2021
+
+	- first declarate functions
+	- try to understand better, review the video
+	- Hoisting only to var and functions
+	- Next monday class
+
+6:11 PM 10/7/2021
+
+	- react documentation
+	  https://es.reactjs.org/docs/create-a-new-react-app.html
+	  https://create-react-app.dev/
+	- libreria de prueba para estilo "Protractor"
+
+8:14 AM 10/9/2021
+
+	- React exploration
+	- lists
+	- forms
+	- 9:30
+
+6:20 PM 10/12/2021
+
+	- Auth, propriedades de autenticacion, mejorar la 
+	  seguridad
+	- firebase con react
+	- CRUD - Create, Read, Update, Delete
+	- tratar de no borrar informacion
+	- creacion de usuario, firebase internamente
+	  ya valida si hay dos usuarios iguales
+	- signup, login, logout
+
+	- Ventas, visualizacion listado y busqueda
+
+6:10 PM 10/14/2021
+
+	- rutas entre react
+	- angular vs react
+	- angular actualiza las dependencias
+	  por si mismo
+	- el ecosistema de angular es mas amplio
+	- las rutas se diseñan de lo general a lo
+	- especifico
+	- se desea que el navegador se refresque en cada pagina
+	- single page application
+	- con link to evitamos descargar datos
+	- carga y actualizacin de datos
+
+5:57 PM 10/18/2021
+
+	* Clase 16
+
+	- Atrapar elementos de formulario
+	- Asignar elementos a un array
+	- Pintar elementos en una lista
+	- 1:38 nuevo projecto desde 0
+	- css bootstrap
+	- nano id libreria mpn, para generar id's
+	- el tamaño del id puede personalizarse
+	- array.filter(), para filrar array
+	- agregacion de logica con html, en archivo .jsx
+
+	* Clase 19
+
+	- useEfect en .jsx
+	- hook o funcion del ciclo de vid de react
+	- cada vez que un estado cambia, useEfect detecta el cambio
+	- parametros a los cuales esta atento useEfect
+	- saber en que momentos hay cambios para tomar diferentes acciones
+
+	- Rutas
+	- se usa "link to" para no refrescar las paginas, disminucion de uso de datos
+	
+	- css
+
+	- JSON.stringify --> una especie de toString
+
+	- firebase con react
+	- importaciones en index.jsx
+	- 2:14, 2:35
+
+	- https://colab.research.google.com/drive/1v9OVkS34nIi9jSUg4jLPew68qDVPhmlm?usp=sharing
+	  https://www.youtube.com/watch?v=Y8mSngdQb9Q
+	  https://www.youtube.com/watch?v=VmbBnSv3otc
+
+6:10 PM 10/21/2021
+
+	* Rutas
+
+	- proteccion de rutas por medio de componente
+	  envolvedor de rutas
+
+	- react trabaja con simple page application
+	  todo el codigo se extrae en una sola pagina
+
+	- validar que la informacion ingresada es correcta
+
+8:46 AM 10/23/2021
+
+	- spinner
+	- web deployment from:
+
+	 vercel
+	 netlify
+	 firebase, npm i firebase-tools -g
+	 heroku
+
+	- firebase cobra a partir de cierta cantidad de
+	 transacciones, el hosting si se cobra por
+	 aparte
+
+	- redux
+
+	- npm i react-router-dom
+	- npm i bootstrap
+
+	- 9:41
+
+
+	- Clase 18 rutas
+
+	- 1:41
+
+12:12 AM 10/26/2021
+
+	- Terminar eliminar, buscar y mensaje de
+	  envio correcto
+	- Terminar documento sprint

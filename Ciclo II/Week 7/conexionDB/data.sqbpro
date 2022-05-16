@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/guazo/Documents/TRABAJOS/Mision Tic 2022/Ciclo II/Programacion ciclo II/Week 7/conexionDB/data.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1020"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,6:mainPERSON"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">--Select
+
+select distinct BillingCountry from invoices;
+
+--Sorting
+
+SELECT * FROM employees  ORDER by FirstName;
+
+SELECT FirstName, LastName from employees;
+
+select FirstName from employees order by Title desc;
+
+-- WHERE (Condiciones)
+
+-- sea igual
+select * from employees where Title = 'IT Staff';
+
+-- sea no igual
+
+select * from employees where Title != 'IT Staff';
+
+select * from employees where Title &lt;&gt; 'IT Staff';
+
+-- between
+
+select * from employees where EmployeeId between 3 and 5;
+--Mayores que
+
+select * from employees where ReportsTo &gt; 2;
+
+--NULL
+
+select * from employees where ReportsTo is NULL;
+
+--or --&gt; in
+
+select * from employees where ReportsTo in (1, 6);
+
+--NOT
+
+select * from employees where not ReportsTo = 1;
+
+-- not in
+
+select * from employees where ReportsTo not in (1, 6);
+
+-- and y or
+
+select * from employees where (Title = 'Sales Manager' or Title = 'Sales Support Agent')
+						and ReportsTo = 2;
+						
+select * from employees where Title in ('Sales Manager', 'Sales Support Agent')
+						and ReportsTo = 2;
+	
+-- comodines
+-- % (busquedas lentas)
+
+SELECT * FROM employees;
+
+--Nan%
+
+SELECT * FROM employees where FirstName like 'Nan%';
+
+-- %cy
+
+SELECT * FROM employees where FirstName like '%cy';
+
+-- %up%
+
+SELECT * FROM employees where FirstName like '%upp%';
+
+--comodin
+
+--SELECT * FROM artists;
+
+--_ccept
+
+SELECT * FROM artists where name like '_ccept';
+
+SELECT * FROM artists where name like '_cc%';
+
+SELECT * FROM artists where name like 'Chic_%';
+
+SELECT * FROM artists where name like '_______a';
+
+--concatenacion
+
+SELECT * FROM employees;
+SELECT FirstName || ' ' || LastName as fullname from employees;
+SELECT FirstName || ' ' || LastName as &quot;Nombre completo&quot; from employees;
+
+--Sqlite no soportado
+
+--SELECT concat(FirstName, ' ', LastName) as &quot;Nombre Completo&quot; from employees;
+
+-- Operaciones entre columnas
+
+SELECT * from invoice_items;
+
+SELECT UnitPrice, Quantity, (UnitPrice * Quantity) as total from invoice_items;
+
+SELECT UnitPrice, Quantity, UnitPrice * (Quantity+5) as total_modificado from invoice_items;
+-- Funciones string
+
+SELECT * from artists;
+select name, 
+		UPPER(name) mayusculas,
+		SUBSTR(name, 1, 3) as palabra_cortada,
+		length(name) largo
+from artists;
+
+-- Funciones agregacion
+/*
+SELECT  sum(total) sum_totales,
+		avg(TOTAL) promedio_totales,
+		max(total) maximo_totales,
+		min(total) min_totales,
+		avg(DISTINCT TOTAL) promedio_totales,
+from invoices;*/
+
+SELECT  sum(total) sum_totales,
+		avg(TOTAL) promedio_totales,
+		max(total) maximo_totales,
+		min(total) min_totales,
+		avg(DISTINCT TOTAL) promedio_totales,
+		count(BillingState) conteo_total,
+		count(*) conteo_total_filas
+from invoices;
+
+--Agrupaciones
+
+SELECT BillingState,
+		sum(total) suma_totales
+	from invoices
+	GROUP by BillingState;
+
+	
+-- creacion de tablas
+-- AUTOCOMMIT
+
+CREATE TABLE PERSON(
+	id INT,
+	name varchar(100),
+	last_name varchar(100),
+	nickname varchar(100),
+	age int
+);
+
+SELECT * from persona;
+
+-- Insertar valores
+
+INSERT INTO PERSON(id, name, last_name, nicknme, age)
+			VALUES(1, 'Pedro', 'Picapiedra', 'peter', 31);
+			
+ROLLBACK;
+			
+COMMIT;
+			
+DROP TABLE IF EXISTS PERSON;
+
+</sql><current_tab id="0"/></tab_sql></sqlb_project>

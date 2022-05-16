@@ -1,0 +1,44 @@
+/* Elementos w, 1 */
+li{
+    color: pink;
+    font-weight:bold;
+}
+
+/* clase, una clase para cualquier elemento
+se recomienda este camino, 10 */
+.hola{
+    color: peru;
+}
+
+/* id,  w, 100*/
+
+#frutas{
+    background-color: yellow !important;
+}
+
+/* Selector universal */
+
+*{
+    border:solid 1px lightseagreen;
+}
+
+/* Selectores agrupados */
+
+/* ul,*{
+    color: brown;
+} */
+
+ul, p{
+    background-color: chartreuse;
+}
+
+/* Selectores descendientes */
+
+ul a{
+    color:red;
+}
+
+/* Selectores hijos directos */
+li > ul{
+    display: none;
+}

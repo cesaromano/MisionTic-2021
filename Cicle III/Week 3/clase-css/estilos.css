@@ -1,0 +1,21 @@
+h1{
+    /* Colores por su nombre en ingles */
+    color: darkgoldenrod;
+}
+
+li{
+    /* Hexadecimal color */
+    color: #00f47a
+}
+
+h4{
+    /* RGB */
+    /* color: rgb(0, 200, 100); */
+    /* RGBA, opacidad, cuarto parametro entre 0 y 1
+    */
+    color: rgb(0, 200, 100, 0.3);
+
+
+    /* Selectores */
+
+}
